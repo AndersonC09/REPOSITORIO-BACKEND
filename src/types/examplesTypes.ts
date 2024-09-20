@@ -1,18 +1,10 @@
-// tipos de datos basicos
+let nombre: string = 'Ana';
+let apellido: string = 'Gómez';
+let edad: number = 22;
+let esEstudiante: boolean = false;
 
-//crear variables de tipo numerico, string, boleano y any e imprimir en consola
-let year: number = 2024;
-console.log(year, 'año');
+let nombreCompleto: string = nombre + ' ' + apellido;
 
-let myName: string = 'Yadir';
-console.log(myName, 'myName');
-
-let lightbulb: boolean = false;
-lightbulb = true;
-console.log(lightbulb, 'lightbulb');
-
-let degree: any = 1;
-console.log(degree,'degree');
-
-const serialNumber: number = 98;
-console.log(serialNumber, 'serialNumber');
+console.log('Nombre Completo:', nombreCompleto);
+console.log('Edad:', edad);
+console.log('¿Es Estudiante?:', esEstudiante);
