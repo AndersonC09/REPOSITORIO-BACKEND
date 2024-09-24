@@ -1,9 +1,9 @@
-let nombre: string = 'Ana';
-let apellido: string = 'Gómez';
-let edad: number = 22;
-let esEstudiante: boolean = false;
+const nombre = 'Ana';
+const apellido = 'Gómez';
+const edad = 22;
+const esEstudiante = false;
 
-let nombreCompleto: string = nombre + ' ' + apellido;
+const nombreCompleto = `${nombre} ${apellido}`;
 
 console.log('Nombre Completo:', nombreCompleto);
 console.log('Edad:', edad);

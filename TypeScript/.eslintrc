@@ -20,7 +20,8 @@
     "no-throw-literal": "off",
     "@typescript-eslint/no-throw-literal": "off",
     "no-restricted-syntax": "off",
-    "max-len": "off"
+    "max-len": "off",
+    "no-console": "off" 
   }
 }
 
